@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/clsung/grcode"
+	"github.com/JohnnyTing/gozbarlib/grcode"
 )
 
 /*
