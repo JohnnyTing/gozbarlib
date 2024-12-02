@@ -21,5 +21,5 @@ func (qr *QRTool) qrCoderReader(imagePath string) (string, error) {
 		return "", fmt.Errorf("No qrcode detected from file: %s", imagePath)
 	}
 
-	return strings.Join(results, ""), nil
+	return strings.Join(results, " "), nil
 }
